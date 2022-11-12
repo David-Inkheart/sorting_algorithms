@@ -25,7 +25,9 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 
+void heapify(int *array, int min, int max, size_t size);
 void _qsort(int *array, int left, int right, size_t size);
 size_t partition(int *array, int left, int right, size_t size);
 void swap(int *array, int left, int right);
